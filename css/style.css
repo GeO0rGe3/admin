@@ -1,7 +1,65 @@
+
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+
+/* для гугла, оперы и сафари */
+
+body::-webkit-scrollbar {
+	width: 12px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+	background: black;  
+	/* background-color: #1f2029; */
+	      /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+	background-color: rgb(39, 39, 74);    /* цвет плашки */
+	border-radius: 20px;       /* закругления плашки */
+	border: 3px solid;  /* padding вокруг плашки */
+	z-index: 100;
+  }
+
+
+
+  :root
+  {   
+      --accent: #6994b8;
+      /* --background-dark: #2d3548; */
+      --text-lighter: rgba(255,255,255,0.9);
+      --accent-light:#FFE28A;
+      --accent-dark: #A6882D;
+      --maincolor: #6994b8;
+      --text: #333;
+      --dark: #202328;
+      --deep: #171A1A;
+      --middle-gray: rgba(111, 122, 139, 0.75);
+      --text-light: #999999;
+      --regular-text: 16px;
+      --big-text:4vmin;
+      --medium-text:2.5vmin;
+      --small-text: 1.9vmin;
+      --lineheight: 1.75;
+      --userfont: raleway-wt, sans-serif,12px;
+      --systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+      --radius: 5px;
+      --radius-style: 0 5px;
+      --transition: .25s ease-out;
+      --address: #989DA5;
+      font-family: roboto;
+  }
+  
+  
 body{
     margin: 0;
     height: 100%;
 }
+
+/* Header  */
+
+
 
 .header{
     display: flex;
@@ -60,3 +118,7 @@ body{
 .main h1{
     margin: 1em;
 }
+
+
+
+
